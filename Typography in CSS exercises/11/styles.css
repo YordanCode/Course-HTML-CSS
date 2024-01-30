@@ -1,0 +1,45 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 2px solid red;
+    padding: 2em;
+    background-color: #00000000;
+}
+
+heading {
+    font-family: Georgia, serif;
+}
+
+.line-divider {
+    height: 2px;
+    /* or the thickness you want */
+    background-color: #9a9a9937;
+    /* or any color */
+    width: 100%;
+    /* or the length you want */
+}
+
+.container {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+}
+
+.vertical-line {
+    border-left: 2px solid #9a9a9937;
+    height: 100px;
+    padding: 1em;
+}
+
+thead th {
+    background-color: gainsboro;
+    width: 379px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+
+
+· Create a HTML table and style it · Use blockquote tag o Style its left border with rgb(221, 221, 221) color o Style its font to italic · Use hr tag for the horizontal lines
